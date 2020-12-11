@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(154, 226, 19);
+
+}
+
+.main .header {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main .gameBox table {
+    border-spacing: 1px;
+    background-color: rgb(31, 207, 15);
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main .gameBox table td.mine {
+    border: none;
+    background: url( https://img-blog.csdnimg.cn/20200814161302986.png#pic_center) no-repeat;
+    background-size: 90% 90%;
+    background-color: #20d9f1;
+    background-position: 2px 0;
+}
+
+.main .gameBox table td.targetMine {
+    /* 游戏结束时显示，触发雷的单元格 */
+    border: none;
+    background: url(https://img-blog.csdnimg.cn/20200814161302986.png#pic_center) no-repeat;
+    background-size: 90% 90%;
+    background-color: #ff4b4b;
+    background-position: 2px 0;
+}
+
+.main .gameBox table td.targetFlag {
+
+    background: url(https://img-blog.csdnimg.cn/20200814161302974.png#pic_center) no-repeat;
+    background-size: 90% 90%;
+    background-position: 2px 0;
+    background-color: #19e94d;
+}
+
+.main .gameBox table td {
+
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: rgb(15, 219, 168) rgb(20, 226, 164) rgb(54, 235, 144) rgb(33, 221, 105);
+    background-color: #2afcfc;
+    font-size: 1px;
+    font-weight: 800;
+}
+
+.gameBox table td.zero,
+.gameBox table td.one,
+.gameBox table td.two,
+.gameBox table td.three,
+.gameBox table td.four,
+.gameBox table td.five,
+.gameBox table td.six,
+.gameBox table td.seven,
+.gameBox table td.eight,
+.gameBox table td.nine {
+    border: none;
+    background-color: rgb(211, 200, 200);
+}
+
+
+
+
